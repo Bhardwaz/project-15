@@ -87,46 +87,41 @@ body{
 
 .showcase{
     width: 100vw;
-    height: 400px;
+    height: 700px;
+    background-image: linear-gradient(90deg , #181818 0% ,
+    #181818 50% , #111111 50%);
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    position: relative;
+    align-items: center; 
+    margin-top: 35px;
 }
 .showcase_container1{
-   width: 50vw;
-   height: 600px;
-   background-color: var(--other_black);
+    display: flex;
+    align-items: center;
+    gap: 10%;
 }
-.showcase_container2{
+/* .showcase_container2{
    width: 50vw;
    height: 600px;
    background-color: var(--dominant_black);
+} */
+.card_details1 , .card_details2 , .card_details3{
+    height: 300px;
+    width: 320px;
+    text-align: center;
+
 }
 .card_details1{
-    height: 260px;
-    width: 240px;
     background-color: var(--red);
-    position: absolute;
-    top: 2px;
-    left: 43%;
 }
 .card_details2{
-    height: 260px;
-    width: 240px;
     background-color: var(--third_black);
-    position: absolute;
-    top: 2px;
-    right: 28%;
+    
 }
 .card_details3{
-    height: 260px;
-    width: 240px;
     background-color: var(--third_black);
-    position: absolute;
-    top: 2px;
-    left: 28%;
+    
 }
 .details_design{
     display: flex;
@@ -151,16 +146,16 @@ body{
     margin-bottom: -5px;
 }
 .experience_container{
-    position: absolute;
-    top: 90%;
-    left: 30%;
+     display: flex;
+     align-items: center;
+     gap: 50px;
 }
 .experience{
     color: var(--red);
     font-size: 80px;
     font-weight: 900;
-    display: block;
     text-align: center;
+    align-self: center;
 }
 .sub_text{
     text-align: left;
@@ -170,7 +165,6 @@ body{
 
 
 .number_grid{
-    position: absolute;
     color: #ffffff;
     bottom: -25%;
     right: 37%;
@@ -209,7 +203,7 @@ body{
     align-items: center;
     height: 200px;
     width: 100vw;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 .project_heading{
     color: var(--white);
