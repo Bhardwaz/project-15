@@ -1,0 +1,99 @@
+
+@media only screen and (max-width:1216px){
+    .navbar_img_head{
+        flex-direction: column-reverse;
+        gap: 0px;
+        height: 130vh;
+        padding-top: 10%;
+    }
+    
+}
+@media only screen and (max-width:976px){
+    .showcase_container1{
+        gap: 5%;
+    }
+    .card_details1, .card_details2, .card_details3 {
+        height: 300px;
+        width: 300px;
+    }
+    .projects_image_container {
+        height: 640px; 
+    }
+    .outer_container {
+        height: 400px;
+        width: 40vw;
+        margin-left: 80px;
+    }
+    .container {
+        height: 290px;
+    }
+    .image_setter {
+        height: 208px;
+        width: 35vw;  } 
+    .footer{
+        flex-direction: column;
+    }
+    
+}
+@media only screen and (max-width:780px){
+    .nav_about_text{
+        width: 100%;
+        text-align: center;
+    }
+    .outer_container {
+        margin-left: 30px;
+    }
+    .footer{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    .footer_head{
+        font-size: 40px;
+    }
+    .footer_sub{
+        font-size: 10px;
+    }
+    .footer_btn{
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+    .featured_projects{
+        flex-direction: column;
+    }
+    .project_heading{
+      font-size: 40px;
+    }
+    .sub_project_heading{
+    font-size: 10px;
+    text-align: center;
+    }
+    .project_btn{
+        padding: 7px 15px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    .showcase_container1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width:550px){
+    .footer{
+        font-size: 16px;
+    }
+    .outer_container {
+        margin-left: 0px;
+    }
+    .showcase_container1{
+        grid-template-columns: 1fr;
+    }
+    .experience_container{
+        flex-direction: column;
+        gap: 0px;
+        padding-top: 120px;
+        padding-bottom: 30px;
+    }
+}

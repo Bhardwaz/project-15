@@ -87,7 +87,6 @@ body{
 
 .showcase{
     width: 100vw;
-    height: 700px;
     background-image: linear-gradient(90deg , #181818 0% ,
     #181818 50% , #111111 50%);
     display: flex;
@@ -238,7 +237,7 @@ body{
 .outer_container{
     height: 600px;
     width: 40vw;
-    margin-left: 100px;
+    margin-left: 80px;
     
 }
 .image_setter{
@@ -346,3 +345,4 @@ body{
 .social_icon img:hover{
     margin-bottom: 2px;
 }
+
